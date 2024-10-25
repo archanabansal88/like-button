@@ -1,0 +1,38 @@
+* {
+  font-family: sans-serif;
+}
+
+.likeBtn {
+  border: 2px solid #888;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 32px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 30px;
+  padding: 4px 8px;
+  margin-bottom: 5px;
+  color: #888;
+  background-color: #fff;
+}
+
+.likeBtn:hover {
+  border-color: #f00;
+  color: #f00;
+}
+
+.liked,
+.liked:hover {
+  background-color: #f00;
+  border-color: #f00;
+  color: #fff;
+}
+
+.likeBtn-icon {
+  display: flex;
+}
+
+.error {
+  font-size: 12px;
+}

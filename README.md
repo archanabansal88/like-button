@@ -4,20 +4,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Create a Like button that chnages appearances based on the following states:
+
+Default State: The button appears in a default state.
+Hover State: When hovered, the button turns red.
+Liked State: After clicking, the button transitions to a loading state, indicating that an API call is in progress. The API can either succeed or fail, affecting the final state of the button.
+
+# How to run the application Locally
+
+clone/download the repository: git clone https://github.com/archanabansal88/like-button.git
+
+run command "npm i" to install dependencies and devDependencies
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Runs the app in the development mode.
+Open [http://localhost:3000] to view it in the browser.
 
 ### `npm run build`
 
